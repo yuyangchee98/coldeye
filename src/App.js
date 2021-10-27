@@ -130,16 +130,16 @@ class App extends React.Component {
   }
 
   calcCashFlowScore(){
-    if(this.state.cashflow == 1){
+    if(this.state.cashflow === 1){
       this.setState({cashFlowScore: 1})
     }
-    else if (this.state.cashflow == 2){
+    else if (this.state.cashflow === 2){
       this.setState({cashFlowScore: 20})
     }
-    else if (this.state.cashflow == 3){
+    else if (this.state.cashflow === 3){
       this.setState({cashFlowScore: 30})
     }
-    else if (this.state.cashflow == 4){
+    else if (this.state.cashflow === 4){
       this.setState({cashFlowScore: 40})
     }
   }
